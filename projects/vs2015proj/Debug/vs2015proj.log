@@ -1,0 +1,17 @@
+﻿  main.cpp
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(20): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(218): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(235): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(260): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(270): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(338): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(345): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(368): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(375): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(375): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(486): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(486): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(494): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\sfml\toasty duels v5\src\main.cpp(494): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  vs2015proj.vcxproj -> C:\Users\Fu Yang\Desktop\SFML\Toasty Duels v5\projects\vs2015proj\Debug\vs2015proj.exe
