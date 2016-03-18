@@ -33,6 +33,8 @@ const int FRAME_LIMIT = 60;
 // Title sceen settings.
 const float TITLE_BACKGROUND_SCALE_X = .4;
 const float TITLE_BACKGROUND_SCALE_Y = .4;
+const int TITLE_POS_X = 100;
+const int TITLE_POS_Y = 120;
 const int INSTRUCTIONS_POS_X = 200;
 const int INSTRUCTIONS_POS_Y = 300;
 // Player sprite and position settings.
@@ -79,6 +81,7 @@ struct Assets {
 	std::list<Bullet>* bullets;
 	sf::Font myFont;
 	sf::Text title;
+	sf::Texture titlePng;
 };
 
 struct Player {
@@ -122,6 +125,9 @@ int main()
 	// Title screen settings
 	sf::Sprite titleScreen;
 	sf::Sprite titleInstructions;
+	sf::Sprite titleImg;
+	titleImg.setTexture(assets.titlePng);
+	titleImg.setPosition(TITLE_POS_X, TITLE_POS_Y);
 	initializeTitleScreen(titleScreen, titleInstructions, assets);
 
 	// Initialize Player settings
@@ -173,17 +179,18 @@ int main()
 			checkCollisions(bullets, player1, player2);
 		// clear window
 		window.clear();
-
+		
 		// Draw game
 		switch (scene)
 		{
 		case start:
-			assets.title.setString("Toasty Duels");
-			assets.title.setColor(sf::Color::Cyan);
+			/*assets.title.setString("Toasty Duels");
+			assets.title.setColor(sf::Color::Black);
 			assets.title.setPosition(100, 200);
+			window.draw(assets.title);*/
 			window.draw(titleScreen);
+			window.draw(titleImg);	// Add title image
 			window.draw(titleInstructions);
-			window.draw(assets.title);
 			break;
 		case gameplay:
 			drawBullets(window, assets);
@@ -258,6 +265,7 @@ void initializeTitleScreen(sf::Sprite &titleScreen, sf::Sprite &titleInstruction
 void loadAssets(Assets &assets, std::list<Bullet> &bullets)
 {
 	// Title screen assets
+	assets.titlePng.loadFromFile(resourcePath() + "assets/title.png");
 	assets.background.loadFromFile(resourcePath() + "assets/battleshipTitle.jpg");
 	assets.myFont.loadFromFile(resourcePath() + "assets/Cowboys.ttf");
 	// Game assets

@@ -1,17 +1,18 @@
 ﻿  main.cpp
 c:\users\fu yang\desktop\toastyduels\src\main.cpp(34): warning C4305: 'initializing': truncation from 'double' to 'float'
 c:\users\fu yang\desktop\toastyduels\src\main.cpp(35): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(236): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(252): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(280): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(290): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(358): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(365): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(392): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(399): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(399): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(506): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-c:\users\fu yang\desktop\toastyduels\src\main.cpp(506): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(130): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(243): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(259): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(288): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(298): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(366): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(373): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(400): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(407): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(407): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 c:\users\fu yang\desktop\toastyduels\src\main.cpp(514): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
 c:\users\fu yang\desktop\toastyduels\src\main.cpp(514): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(522): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\fu yang\desktop\toastyduels\src\main.cpp(522): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   vs2015proj.vcxproj -> C:\Users\Fu Yang\Desktop\ToastyDuels\projects\vs2015proj\Debug\vs2015proj.exe
